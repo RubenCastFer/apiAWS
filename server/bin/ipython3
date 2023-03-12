@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/home/ruben/Documentos/CE/PIA/PIA_S06_Codigo_Ejemplos (1)/02_Server_Flask_Polly/server/bin/python" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from IPython import start_ipython
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(start_ipython())

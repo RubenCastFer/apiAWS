@@ -1,0 +1,9 @@
+boto3
+flask
+python-dotenv
+requests
+pillow
+matplotlib
+opencv-python
+ipython
+pip-api
